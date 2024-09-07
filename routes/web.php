@@ -7,8 +7,11 @@ Route::view('/', 'welcome');
 Route::view('admin', 'livewire.admin')->middleware(['auth', 'verified'])->name('admin');
 Route::view('admin/digital-cards', 'livewire.digital-cards.digital-cards')->middleware(['auth'])->name('admin/digital-cards');
 Route::view('admin/users', 'livewire.admin.users.users')->middleware(['auth', 'verified'])->name('admin/users');
+
 Route::view('admin/settings', 'livewire.admin.settings.settings')->middleware(['auth', 'verified'])->name('admin/settings');
 Route::view('admin/website-settings', 'livewire.admin.users.users')->middleware(['auth', 'verified'])->name('admin/website-settings');
+
+
 Route::view('admin/reports', 'livewire.admin.users.users')->middleware(['auth', 'verified'])->name('admin/reports');
 
 

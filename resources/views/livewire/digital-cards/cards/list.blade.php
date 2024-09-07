@@ -31,7 +31,7 @@ new class extends Component
             {{ __('Cards List') }}
         </h2>
         
-        <x-text-input wire:model.live="digital_card" id="digital_card" placeholder="Search posts by digital card..." name="digital_card" type="text" style="border-radius:0px;" class="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required autofocus autocomplete="digital_card" />
+        <x-text-input wire:model.live="digital_card" id="digital_card" placeholder="Search by digital card..." name="digital_card" type="text" style="border-radius:0px;" class="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required autofocus autocomplete="digital_card" />
     </header>
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
