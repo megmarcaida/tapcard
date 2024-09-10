@@ -22,6 +22,7 @@
         <x-side-nav-link :href="route('admin/users')" :active="request()->routeIs('admin/users')" wire:navigate>{{ __('Users') }}</x-side-nav-link>
         <x-side-nav-link :href="route('admin/digital-cards')" :active="request()->routeIs('admin/digital-cards')" wire:navigate>{{ __('Digital Cards') }}</x-side-nav-link>
         <x-side-nav-link :href="route('admin/settings')" :active="request()->routeIs('admin/settings')" wire:navigate>{{ __('Settings') }}</x-side-nav-link>
+        <x-side-nav-link :href="route('admin/link-cards')" :active="request()->routeIs('admin/link-cards')" wire:navigate>{{ __('Link Cards') }}</x-side-nav-link>
         <x-side-nav-link :href="route('admin/reports')" :active="request()->routeIs('admin/reports')" wire:navigate>{{ __('Reports') }}</x-side-nav-link>
     </nav>
 </aside>

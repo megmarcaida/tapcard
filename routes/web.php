@@ -11,6 +11,8 @@ Route::view('admin/users', 'livewire.admin.users.users')->middleware(['auth', 'v
 Route::view('admin/settings', 'livewire.admin.settings.settings')->middleware(['auth', 'verified'])->name('admin/settings');
 Route::view('admin/website-settings', 'livewire.admin.users.users')->middleware(['auth', 'verified'])->name('admin/website-settings');
 
+Route::view('admin/link-cards', 'livewire.admin.linkcards.linkcards')->middleware(['auth', 'verified'])->name('admin/link-cards');
+
 
 Route::view('admin/reports', 'livewire.admin.users.users')->middleware(['auth', 'verified'])->name('admin/reports');
 
